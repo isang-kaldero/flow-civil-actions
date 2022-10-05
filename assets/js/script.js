@@ -3,7 +3,7 @@ $(function() {
     $(document).ready(function () {
         $.ajax({
           type: "GET",
-          url: "assets/steps.xml",
+          url: "../steps.xml",
           dataType: "xml",
           success: xmlParser
         });
