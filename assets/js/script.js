@@ -1,6 +1,23 @@
 $(function() {
 
-    $(document).ready(function () {
+    //var xmlDoc = $.parseXML("assets/steps.xml"); 
+    //console.log(xmlDoc);
+
+    $.ajax({
+
+        type: "GET",
+        url: "./assets/steps.xml",
+        dataType: "xml",
+        success: function(xml){
+            //var xmlDoc = $.parseXML(xml);
+            //var root = $(xmlDoc).find("root");
+            //alert(root);
+            console.log("xml loaded")
+        }
+    
+    });    
+
+/*    $(document).ready(function () {
         $.ajax({
           type: "GET",
           url: "./assets/steps.xml",
@@ -17,6 +34,6 @@ $(function() {
         /*$(xml).find("Book").each(function () {
           $(".main").append('<div class="book"><div class="title">' + $(this).find("Title").text() + '</div><div class="description">' + $(this).find("Description").text() + '</div><div class="date">Published ' + $(this).find("Date").text() + '</div></div>');
           $(".book").fadeIn(1000);
-        });*/
-      }      
+        });
+      }      */
   });
