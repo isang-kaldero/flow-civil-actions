@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" headers="Accept=text/plain;charset=UTF-8"?>
+<steps>
+    <step>
+        <id>file-ip</id>
+        <title>Filing of Initiatory Pleading</title>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</content>
+        <no></no>
+        <yes>dismiss-under</yes>
+    </step>
+    <step>
+        <id>dismiss-under</id>
+        <title>Dismiss Under Rule 9.11</title>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</content>
+        <no>issue-summon</no>
+        <yes>dismiss</yes>
+    </step>
+    <step>
+        <id>dismiss</id>
+        <title>Dismiss</title>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</content>
+        <no></no>
+        <yes>end</yes>
+    </step>
+    <step>
+        <id>issue-summon</id>
+        <title>Issue Summons</title>
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</content>
+        <no></no>
+        <yes>end</yes>
+    </step>            
+</steps>
